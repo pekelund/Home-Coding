@@ -29,4 +29,10 @@ public class WeightWatcherServiceImpl extends RemoteServiceServlet implements
 	    return prices;
 	}
 
+	@Override
+	public StockPrice[] setWeight(Double weight) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

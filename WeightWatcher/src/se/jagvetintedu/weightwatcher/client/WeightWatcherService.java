@@ -7,4 +7,7 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 public interface WeightWatcherService extends RemoteService {
 
   StockPrice[] getPrices(String[] symbols);
+
+  StockPrice[] setWeight(Double weight);
+
 }
