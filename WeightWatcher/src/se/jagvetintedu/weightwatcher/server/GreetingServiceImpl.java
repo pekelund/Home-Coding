@@ -2,6 +2,7 @@ package se.jagvetintedu.weightwatcher.server;
 
 import se.jagvetintedu.weightwatcher.client.GreetingService;
 import se.jagvetintedu.weightwatcher.shared.FieldVerifier;
+
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
